@@ -1,5 +1,4 @@
 # Esp32 Wifi Part1
-
 Here some simple code to get started with Wifi on the ESP32. NOTE: the ESP32 only supports 2.4G networks. 5G networks will not be seen by the ESP32.
 
 # ESP32WifiShowNetworks.ino
@@ -10,7 +9,10 @@ https://techtutorialsx.com/2017/06/29/esp32-arduino-getting-started-with-wifi/
 This code reads out an NTP clock to sync time. Code is based on the link below, but adapted to work on ESP32.
 https://lastminuteengineers.com/esp8266-ntp-server-date-time-tutorial/
 
-Youtube video in progress...
+# How to use:
+See here for a video on ESP32 WiFi basics and how to sync to an NTP clock
+https://youtu.be/0AlATlN95Y0
+
 
 
 Have fun ;-)
