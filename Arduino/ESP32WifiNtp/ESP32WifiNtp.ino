@@ -9,9 +9,8 @@
 #define UTC_OFFSET_IN_SECONDS 3600         // offset from greenwich time
 
 // SSID and password of Wifi connection:
-//const char* ssid = "TYPE_YOUR_SSID_HERE";
-//const char* password = "TYPE_YOUR_PASSWORD_HERE";
-#include <WifiPassword.h>
+const char* ssid = "TYPE_YOUR_SSID_HERE";
+const char* password = "TYPE_YOUR_PASSWORD_HERE";
 
 char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 
