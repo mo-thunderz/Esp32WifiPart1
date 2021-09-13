@@ -1,5 +1,5 @@
-# Esp32 Wifi Part1
-Here some simple code to get started with Wifi on the ESP32. NOTE: the ESP32 only supports 2.4G networks. 5G networks will not be seen by the ESP32.
+# Arduino/Esp32 Wifi Part1
+Here some simple code to get started with Wifi on a Arduino with integrated WiFi (tested on an ESP32). NOTE: the ESP32 only supports 2.4G networks. 5G networks will not be seen by the ESP32.
 
 # ESP32WifiShowNetworks.ino
 This is a simple program by Techtutorialsx that scans the available Wifi networks and reports these in the Serial monitor. In addition, it will login onto a hard-coded SSID with password defined in the code.
