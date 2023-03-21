@@ -29,10 +29,15 @@ void setup(){
   }
 
   timeClient.begin();
+  
+  // The function timeClient.update() syncs the local time to the NTP server. In the video I call this in the main loop. However, NTP servers dont like it if 
+  // they get pinged all the time, so I recommend to only re-sync to the NTP server occasionally. In this example code we only call this function once in the
+  // setup() and you will see that in the loop the local time is automatically updated. Of course the ESP/Arduino does not have an infinitely accurate clock, 
+  // so if the exact time is very important you will need to re-sync once in a while.
+  timeClient.update();
 }
 
 void loop() {
-  timeClient.update();
 
   // Option1: Get time and day of the week directly (discussed in Youtube video)
   Serial.print("Option 1: ");
